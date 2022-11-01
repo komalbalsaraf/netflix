@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.netflix_div {
+    background-color: #000;
+    color: #fff;
+}
+
+/* 
+.nav{
+    background-color: rgba(0, 0, 0, 0.558);
+} */
+.bg-image {
+    background-image: url("https://wallpaperaccess.com/full/2387027.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.content-data {
+    position: absolute;
+    color: #fff;
+    padding: 2rem;
+    width: 40rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.content-data h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.content-data p {
+    font-size: 1.1rem;
+}
+
+.btn-content {
+    margin-right: 3rem;
+}
+
+.mail input {
+    width: 70%;
+    padding: 0.9rem 1.3rem;
+    /* margin-right: 2rem; */
+}
+
+.mail button {
+    background-color: rgb(238, 54, 54);
+    color: #fff;
+    border: 0;
+    padding: 0.6rem .6rem;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 600; */
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid {
+    border-top: 10px solid rgb(103, 103, 103);
+    font-family: 'Poppins', sans-serif;
+}
+
+.smart h1 {
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.footer-links a{
+    font-size: 0.8rem;
+    color: #737373;
+}
+.link{
+    color: #737373;
+}
+.content{
+    background-color: #737373;;
+    margin: 1rem 0;
+    padding: 0.6rem 1rem;
+}
+
+.accordion {
+    background-color:#303030;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.5rem;
+    transition: 0.4s;
+  }
+  
+  /* .active, .accordion:hover {
+    background-color: #ccc; 
+  } */
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #303030;
+    color: #fff;
+    overflow: hidden;
+  }
+
+  .panel p{
+    font-size: 1.5rem;
+  }
